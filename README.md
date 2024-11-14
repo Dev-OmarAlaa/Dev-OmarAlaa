@@ -5,12 +5,13 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h2>
 
-<!-- Typing SVG Animation -->
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=%23FF5733&size=28&center=true&vCenter=true&width=500&lines=Software+Engineer+%7C+BIS+Student;Problem+Solver;Always+Learning+New+Things;Coding+is+Fun+%F0%9F%92%BB" alt="Typing SVG Animation">
-  </a>
-</p>
+<!-- Direct Text Animation -->
+<div align="center" style="font-size: 24px; color: #FF5733; font-family: 'Fira Code', monospace; animation: fadeIn 2s ease-in-out infinite alternate;">
+  <p>Software Engineer | BIS Student</p>
+  <p>Problem Solver</p>
+  <p>Always Learning New Things</p>
+  <p>Coding is Fun 💻</p>
+</div>
 
 <div align="center">
   <p align="center" style="color: #16A085; font-size: 20px; font-weight: bold;">
