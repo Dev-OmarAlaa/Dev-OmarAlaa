@@ -1,18 +1,18 @@
 <img width="250" align="right" src="https://c.tenor.com/_DOBjnGspYAAAAAM/code-coding.gif">
 
-<h2 align="center">
+<h2 align="center" dir="ltr">
   Welcome to Omar Alaa's Profile! 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h2>
 
 <!-- Typing SVG Animation -->
-<p align="center">
+<p align="center" dir="ltr">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=%23FF5733&size=28&center=true&vCenter=true&width=500&lines=Software+Engineer+%7C+BIS+Student;Problem+Solver;Always+Learning+New+Things;Coding+is+Fun+%F0%9F%92%BB">
   </a>
 </p>
 
-<div align="center">
+<div align="center" dir="ltr">
   <p align="center" style="color: #16A085; font-size: 20px; font-weight: bold;">
     👋 I'm Omar Alaa, a passionate Software Engineer and BIS student, always ready to learn and tackle new challenges!
   </p>
