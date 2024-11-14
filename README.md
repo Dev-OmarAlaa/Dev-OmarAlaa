@@ -5,12 +5,12 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h2>
 
-<!-- Direct Text Animation -->
-<div align="center" style="font-size: 24px; color: #FF5733; font-family: 'Fira Code', monospace; animation: fadeIn 2s ease-in-out infinite alternate;">
-  <p>Software Engineer | BIS Student</p>
-  <p>Problem Solver</p>
-  <p>Always Learning New Things</p>
-  <p>Coding is Fun 💻</p>
+<!-- Direct Text Animation with CSS -->
+<div align="center">
+  <p class="animated-text">Software Engineer | BIS Student</p>
+  <p class="animated-text">Problem Solver</p>
+  <p class="animated-text">Always Learning New Things</p>
+  <p class="animated-text">Coding is Fun 💻</p>
 </div>
 
 <div align="center">
@@ -40,16 +40,38 @@
 
 <!-- Animation CSS -->
 <style>
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
-  body {
-    animation: fadeIn 2s ease-in-out infinite alternate;
+  .animated-text {
+    font-size: 24px;
+    color: #FF5733;
+    font-family: 'Fira Code', monospace;
+    animation: fadeInUp 1.5s ease-in-out forwards;
+    opacity: 0;
   }
 
-  p, h2 {
-    animation: fadeIn 2s ease-in-out infinite alternate;
+  .animated-text:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .animated-text:nth-child(2) {
+    animation-delay: 1.5s;
+  }
+  
+  .animated-text:nth-child(3) {
+    animation-delay: 2.5s;
+  }
+  
+  .animated-text:nth-child(4) {
+    animation-delay: 3.5s;
   }
 </style>
